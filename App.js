@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import PieChartExample from './src/components/PieChartExample';
+//import PieChartExample from './src/components/PieChartExample';
+import AreaChartExample from './src/components/AreaChartExample';
 import {
   StyleSheet,
   Text,
@@ -12,7 +13,8 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Text>PieChart</Text>
-        <PieChartExample />
+        {/* <PieChartExample /> */}
+      <AreaChartExample />
       </View>
     );
   }
